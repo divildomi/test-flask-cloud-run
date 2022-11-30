@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello again from Dockerised Flask"
+    return "Hello !! This is my Week 11 demo for lab 5"
 
 @app.route("/route32a")
 def route32a():
